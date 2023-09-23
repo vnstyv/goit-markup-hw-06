@@ -70,9 +70,110 @@ position: absolute;
 top: 24px;
 resize: 24px;
 border: 1px solid rgba(0, 0, 0, 0.1);
+margin-left: 256px;
 }}
 
 
+.modal-navigation-list {
+    display: block;
+    margin-top: 72px;
+}
+
+.mobile-modal-contacts-list {
+    display: block;
+}
+
+.mobile-menu {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.modal-nav {
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 288px;
+}
+
+.modal-navigation-list {
+    display: block;
+    gap: 40px;
+}
+
+.modal-menu-head-current-link {
+    color: #2e2f42;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+}
+
+.current {
+    color: #404bbf;
+}
+
+.current::after {
+    content: '';
+    position: absolute;
+    background-color: #404bbf;
+}
+
+.mobile-modal-address {
+    background-color: #ffffff;
+    font-style: normal;
+}
+
+.mobile-modal-contacts-list {
+    display: block;
+    gap: 24px;
+}
+
+.modal-mail-and-tel {
+    color: #434455;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-mail-and-tel:hover {
+    color: #404bbf;
+}
+
+.modal-mail-and-tel:focus {
+    color: #404bbf;
+}
+
+
+.mobile-modal-nav-list {
+    
+    display: inline-flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.mobile-modal-nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-modal-nav-item:hover,
+.mobile-modal-nav-item:focus {
+    background-color: #404bbf;
+}
+
+.mobile-modal-nav-item {
+    fill: #f4f4fd;
+}
 
 
 @media screen and (min-width: 768px) {

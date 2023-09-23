@@ -1,20 +1,6 @@
 
 
 /*main-page-button*/
-.main-page {
-  text-align: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url('../images/bg.jpg');
-  background-size: cover;
-  max-width: 1440px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 .main-page-text {
   color: #fff;
   text-align: center;

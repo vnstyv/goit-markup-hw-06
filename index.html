@@ -159,7 +159,8 @@
           <ul class="team-list list">
             <li class="team-member">
               <img
-                src="./images/image.01.jpg"
+              srcset="./images/img@2x-3.jpg 2x"
+                src="./images/img-3.jpg"
                 alt="Mark-Guerrero-fhoto"
                 width="264"
               />
@@ -228,7 +229,8 @@
             </li>
             <li class="team-member">
               <img
-                src="./images/image.02.jpg"
+               srcset="./images/img@2x-2.jpg 2x"
+                src="./images/img-2.jpg"
                 alt="Tom-Ford-photo"
                 width="264"
               />
@@ -297,7 +299,8 @@
             </li>
             <li class="team-member">
               <img
-                src="./images/image.03.jpg"
+              srcset="./images/img@2x-1.jpg 2x"
+                src="./images/img-1.jpg"
                 alt="Camila-Garcia-photo"
                 width="264"
               />
@@ -366,7 +369,8 @@
             </li>
             <li class="team-member">
               <img
-                src="./images/image.04.jpg"
+              srcset="./images/img@2x.jpg 2x"
+                src="./images/img.jpg"
                 alt="Daniel-Wilson-photo"
                 width="264"
               />
@@ -445,10 +449,17 @@
             <li class="project">
               <div class="project-wrapper">
               <img
-                src="./images/bankapp.jpg"
-                alt="banking-app-photo"
-                width="360"
-              />
+              srcset="
+              ./images/desktop-bankapp.jpg 360w,
+              ./images/desktop-bankapp@2x.jpg 720w,
+              ./images/tablet-bankapp.jpg 356w,
+              ./images/tablet-bankapp@2x.jpg 712w,
+              ./images/mobile-bankapp.jpg 288w,
+              ./images/mobile-bankapp@2x.jpg 576w
+              "
+              sizes=" (min-width: 1200px) 360px, (min-width: 768px) 356px, (max-width:767px) 288px"
+                src="./images/mobile-bankapp.jpg"
+                alt="banking-app-photo"/>
               <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task
               Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
             </div>
@@ -459,7 +470,18 @@
             </li>
             <li class="project">
             <div class="project-wrapper">
-            <img src="./images/payment.jpg" alt="cashless-payment-photo" width="360" />
+            <img 
+            srcset="
+              ./images/desktop-payment.jpg 360w,
+              ./images/desktop-payment@2x.jpg 720w,
+              ./images/tablet-payment.jpg 356w,
+              ./images/tablet-payment@2x.jpg 712w,
+              ./images/mobile-payment.jpg 288w,
+              ./images/mobile-payment@2x.jpg 576w
+              "
+            sizes=" (min-width: 1200px) 360px, (min-width: 768px) 356px, (max-width:767px) 288px"
+            src="./images/mobile-payment.jpg" 
+            alt="cashless-payment-photo"/>
               <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task
               Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
             </div>
@@ -471,7 +493,18 @@
                 </li>
             <li class="project">
               <div class="project-wrapper">
-                  <img src="./images/meditation.jpg" alt="meditation-app-photo" width="360" />
+                  <img 
+                  srcset="
+              ./images/desktop-meditation.jpg 360w,
+              ./images/desktop-meditation@2x.jpg 720w,
+              ./images/tablet-meditation.jpg 356w,
+              ./images/tablet-meditation@2x.jpg 712w,
+              ./images/mobile-meditation.jpg 288w,
+              ./images/mobile-meditation@2x.jpg 576w
+              "
+            sizes=" (min-width: 1200px) 360px, (min-width: 768px) 356px, (max-width:767px) 288px"
+                  src="./images/mobile-meditation.jpg " 
+                  alt="meditation-app-photo"/>
                 <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
@@ -483,7 +516,18 @@
             </li>
             <li class="project">
               <div class="project-wrapper">
-                <img src="./images/taxi.jpg" alt="taxi-service-photo" width="360" />
+                <img 
+                srcset="
+              ./images/desktop-taxi.jpg 360w,
+              ./images/desktop-taxi@2x.jpg 720w,
+              ./images/tablet-taxi.jpg 356w,
+              ./images/tablet-taxi@2x.jpg 712w,
+              ./images/mobile-taxi.jpg 288w,
+              ./images/mobile-taxi@2x.jpg 576w
+              "
+            sizes=" (min-width: 1200px) 360px, (min-width: 768px) 356px, (max-width:767px) 288px"
+                src="./images/mobile-taxi.jpg" 
+                alt="taxi-service-photo"/>
                 <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
@@ -495,7 +539,18 @@
             </li>
             <li class="project">
               <div class="project-wrapper">
-                <img src="./images/screen.jpg" alt="screen-illustrations-photo" width="360" />
+                <img 
+                srcset="
+              ./images/desktop-screen.jpg 360w,
+              ./images/desktop-screen@2x.jpg 720w,
+              ./images/tablet-screen.jpg 356w,
+              ./images/tablet-screen@2x.jpg 712w,
+              ./images/mobile-screen.jpg 288w,
+              ./images/mobile-screen@2x.jpg 576w
+              "
+            sizes=" (min-width: 1200px) 360px, (min-width: 768px) 356px, (max-width:767px) 288px"
+                src="./images/mobile-screen.jpg" 
+                alt="screen-illustrations-photo"/>
                 <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
@@ -507,7 +562,18 @@
             </li>
             <li class="project">
               <div class="project-wrapper">
-                <img src="./images/courses.jpg" alt="online-courses-photo" width="360" />
+                <img 
+                srcset="
+              ./images/desktop-courses.jpg 360w,
+              ./images/desktop-courses@2x.jpg 720w,
+              ./images/tablet-courses.jpg 356w,
+              ./images/tablet-courses@2x.jpg 712w,
+              ./images/mobile-courses.jpg 288w,
+              ./images/mobile-courses@2x.jpg 576w
+              "
+            sizes=" (min-width: 1200px) 360px, (min-width: 768px) 356px, (max-width:767px) 288px"
+                src="./images/mobile-courses.jpg" 
+                alt="online-courses-photo" />
                 <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
@@ -663,12 +729,67 @@
 </div>
 
 <!-- Modal menu -->
-<div class="mobile-menu ">
+<div class="mobile-menu is-open">
   <button class="mobile-menu-close-btn">
     <svg class="mobile-menu-close-icon" width="8" height="8">
       <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
     </svg>
   </button>
+        <nav class="modal-nav">
+          <ul class="modal-navigation-list list">
+            <li>
+              <a href="#" class="modal-menu-head-current-link link">Studio</a>
+            </li>
+            <li>
+              <a href="#" class="modal-menu-head-current-link link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#" class="modal-menu-head-current-link link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+          <address class="mobile-modal-address">
+            <ul class="mobile-modal-contacts-list list">
+              <li>
+                <a href="mailto:info@devstudio.com" class="modal-mail-and-tel link">info@devstudio.com</a>
+              </li>
+              <li>
+                <a href="tel:+110001111111" class="modal-mail-and-tel link">+11 (000) 111-11-11</a>
+              </li>
+            </ul>
+          </address>
+          <div class="mobile-modal-nav">
+            <ul class="mobile-modal-nav-list list">
+              <li class="mobile-modal-nav-item">
+                <a class="modal-contacts" href="">
+                  <svg class="list-icon" width="16" height="16" aria-label="instagram icon">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-modal-nav-item">
+                <a class="modal-contacts" href="">
+                  <svg class="list-icon" width="16" height="16" aria-label="twitter icon">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-modal-nav-item">
+                <a class="modal-contacts" href="">
+                  <svg class="list-icon" width="16" height="16" aria-label="facebook icon">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-modal-nav-item">
+                <a class="modal-contacts" href="">
+                  <svg class="list-icon" width="16" height="16" aria-label="linkedin icon">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
 </div>
   </body>
 </html>
