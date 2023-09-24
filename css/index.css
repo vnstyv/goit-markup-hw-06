@@ -5,4 +5,10 @@
 @import "./utils/visually-hidden.css";
 
 @import "./layout/header.css";
+@import "./layout/section1.css";
+@import "./layout/section2.css";
+@import "./layout/section3.css";
+@import "./layout/section4.css";
+@import "./layout/footer.css";
+@import "./layout/modal.window.css";
 

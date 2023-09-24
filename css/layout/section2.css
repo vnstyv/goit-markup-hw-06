@@ -1,0 +1,116 @@
+
+.features {
+    background-color: #fff;
+    padding-top: 96px;
+    padding-bottom: 16px;
+}
+
+.features-container {
+    width: 288px;
+}
+
+.all-features-list {
+    display: flex;
+    gap: 72px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.feature-name {
+    color: var(--NAVY-BLUE, #2e2f42);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.feature-description {
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-left: 16px;
+}
+
+.feature-list-link {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {}
+
+
+
+@media screen and (min-width: 1158px) {
+.features {
+    background-color: #fff;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+    
+.features-container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+    
+.all-features-list {
+    display: flex;
+    gap: 24px;
+}
+    
+.feature {
+    flex-basis: calc((100% - 72px) / 4);
+}
+    
+.feature-name {
+    color: #2e2f42;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+    
+.feature-description {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+    
+.feature-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    background-color: #F4F4FD;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
+}
+
+@media screen and (min-width: 768px) {
+all-features-list{
+        flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 72px 24px;
+            flex-direction: row;
+}
+.feature{
+    display: flex;
+        width: calc((100% - 24px) / 2);
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+}
+}
+
+@media screen and (min-width: 1158px) {
+
+}
