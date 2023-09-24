@@ -2,7 +2,7 @@
 .main-page{
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url('./images/mobile-bg.jpg');
+            url('../../images/mobile-bg.jpg');
     width: 320px;
     height: 432px;
     background-repeat: no-repeat;
@@ -56,7 +56,7 @@
 .main-page {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url('./images/tablet-bg.jpg');
+            url('../../images/tablet-bg.jpg');
         width: 768px;
         height: 436px;
     }
@@ -68,9 +68,10 @@
 
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url("./images/desktop-bg.jpg");
+            url("../../images/desktop-bg.jpg");
         width: 1440px;
         height: 596px;
+        padding: 188px 0;
     }
 
     .main-page-text {

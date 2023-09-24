@@ -150,7 +150,32 @@ margin-left: 16px;
     
 }
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+
+        .bottom-section-container {
+                gap: 72px 24px;
+                width: 584px;
+                justify-content: flex-start;
+            }
+        
+            .page-footer-container {
+                align-items: start;
+            }
+        
+            .text-footer {
+                max-width: 264px;
+                text-align: justify;
+            }
+        
+            .form-container {
+                flex-direction: row;
+            }
+        
+            .footer-form-input {
+                max-width: 264px;
+            }
+
+}
 
 @media screen and (min-width: 1158px) {
 

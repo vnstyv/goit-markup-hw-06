@@ -5,10 +5,6 @@
     padding-bottom: 16px;
 }
 
-.features-container {
-    width: 288px;
-}
-
 .all-features-list {
     display: flex;
     gap: 72px;
@@ -43,7 +39,20 @@
 
 @media screen and (min-width: 768px) {}
 
-
+.all-features-list {
+    display: flex;
+    gap: 72px;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.feature{
+    flex-basis: calc((100% - 72px) / 3);
+}
+.feature-description {
+    padding-left: 0;
+}
 
 @media screen and (min-width: 1158px) {
 .features {

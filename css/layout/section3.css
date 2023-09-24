@@ -74,7 +74,14 @@ display: flex;
 
 
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+.team-list{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+}
 
 @media screen and (min-width: 1158px) {
 
@@ -160,6 +167,4 @@ display: flex;
 
     .team-member-list-icon {
         fill: #f4f4fd;
-    }
-
-}
+    }}
