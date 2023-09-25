@@ -80,6 +80,7 @@ text-align: left;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-top: 72px;
     margin-bottom: 8px;
 }
     
@@ -104,21 +105,28 @@ text-align: left;
 }
 
 @media screen and (min-width: 768px) {
-all-features-list{
-        flex-wrap: wrap;
-            align-items: flex-start;
-            gap: 72px 24px;
-            flex-direction: row;
+.features {
+        background-color: #fff;
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+    .all-features-list{
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 72px 24px;
+    flex-direction: row;
 }
 .feature{
     display: flex;
-        width: calc((100% - 24px) / 2);
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
+    width: calc((100% - 24px) / 2);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
 }
 }
 
 @media screen and (min-width: 1158px) {
-
+.feature-description{
+    font-weight: 400;
+}
 }

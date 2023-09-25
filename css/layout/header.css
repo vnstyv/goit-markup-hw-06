@@ -177,7 +177,10 @@ color: #404BBF
 
 /* TABLET VER. */
 @media screen and (min-width: 768px) {
-
+.page-header{
+    padding-top: 0;
+    padding-bottom: 0;
+}
 .open-mobile-menu-btn{
     display: none;
 }

@@ -12,13 +12,14 @@
     .main-page-text {
         color: #fff;
         text-align: center;
-        font-size: 56px;
+        font-size: 36px;
         line-height: 1.07;
         letter-spacing: 0.02em;
         max-width: 320px;
         margin-right: auto;
         margin-left: auto;
-        margin-bottom: 48px;
+        padding-top: 72px;
+        padding-bottom: 72px;
     }
 
     .button {
@@ -78,7 +79,7 @@
     .main-page-text {
         color: #fff;
         text-align: center;
-        font-size: 36px;
+        font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
         max-width: 496px;
