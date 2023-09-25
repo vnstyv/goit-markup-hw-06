@@ -60,6 +60,12 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #FFF;;
     transform: translateX(100%);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding-top: 72px;
+    padding-bottom: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: column;
 }
 .mobile-menu.is-open{
     transform: translateX(0%);
@@ -85,10 +91,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-nav {
-    margin-left: 16px;
-    margin-top: 72px;
-    }
 
 .modal-navigation-list {
     display: flex;
@@ -105,7 +107,14 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-transform: capitalize;
     text-decoration: none;
 }
-
+.modal-menu-link-first{
+    color: #404BBF;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+}
 .modal-menu-link:hover, .modal-menu-link:focus{
 color: #404BBF
 }
@@ -135,7 +144,15 @@ color: #404BBF
 .modal-mail-and-tel:focus {
     color: #4D5AE5;
 }
-
+.modal-mail-and-tel-blue{
+    color: #404BBF;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02;
+}
 .mobile-modal-nav-list{
     display: flex;
     gap: 40px;
@@ -154,7 +171,9 @@ color: #404BBF
     background-color: #4d5ae5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.modal-mobile-cont-soc{
+    margin-top: auto;
+}
 
 /* TABLET VER. */
 @media screen and (min-width: 768px) {
@@ -171,7 +190,7 @@ color: #404BBF
     display: flex;
     flex-direction: column;
     gap: 12px;
-    margin-left: 122px;
+    margin-left: auto;
 }
 
 .page-header-container {
@@ -180,11 +199,8 @@ justify-content: space-between;
   }
 
   .navigation{
-        display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 100%;
-            width: 736px;
+    display: flex;
+    align-items: center;
   }
 .navigation-list {
     display: flex;
@@ -220,11 +236,13 @@ justify-content: space-between;
 }
 
 .mail-and-tel {
+    gap: 12px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
     color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail-and-tel:hover {
     color: #404bbf;
@@ -238,6 +256,7 @@ justify-content: space-between;
 /* DESKTOP VER. */
 @media screen and (min-width: 1158px) {
 .page-header {
+    padding: 0 0 0 0 ;
         border-bottom: 1px solid #e7e9fc;
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     }

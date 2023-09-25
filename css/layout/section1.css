@@ -3,14 +3,11 @@
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             url('../../images/mobile-bg.jpg');
-    width: 320px;
-    height: 432px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
-    padding: 72px 16px;
 }
     .main-page-text {
         color: #fff;
@@ -57,8 +54,13 @@
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             url('../../images/tablet-bg.jpg');
-        width: 768px;
-        height: 436px;
+            padding: 112px 0px ;
+    }
+    .main-page-text{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 496px;
     }
 }
 
@@ -69,15 +71,14 @@
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             url("../../images/desktop-bg.jpg");
-        width: 1440px;
-        height: 596px;
-        padding: 188px 0;
+        padding: 188px 0px;
+        max-width: 1440px;
     }
 
     .main-page-text {
         color: #fff;
         text-align: center;
-        font-size: 56px;
+        font-size: 36px;
         line-height: 1.07;
         letter-spacing: 0.02em;
         max-width: 496px;

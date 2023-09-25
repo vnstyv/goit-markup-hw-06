@@ -37,28 +37,28 @@
     display: none;
 }
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
 
 .all-features-list {
-    display: flex;
-    gap: 72px;
-    align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 72px 24px;
 }
-.feature{
-    flex-basis: calc((100% - 72px) / 3);
+
+.feature-name{
+text-align: left;
 }
+
 .feature-description {
     padding-left: 0;
 }
-
+}
 @media screen and (min-width: 1158px) {
 .features {
     background-color: #fff;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
     
 .features-container {
@@ -79,7 +79,6 @@
     color: #2e2f42;
     font-size: 20px;
     line-height: 1.2;
-    font-weight: 500;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
